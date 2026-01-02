@@ -1,16 +1,11 @@
-# This is a sample Python script.
-
-# Press ⌘R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# from PREPROCESSING.preprocessing import load_raw_data, clean_zomato, save_clean_data
+#
+# raw_path = "/Users/rohit/Desktop/swayam_project/DATASET/zomato.csv"          # adjust filename
+# clean_path = "/Users/rohit/Desktop/swayam_project/DATASET/zomato_cleaned.csv"  # output
+#
+# df_raw = load_raw_data(raw_path)
+# df_clean = clean_zomato(df_raw)
+# save_clean_data(df_clean, clean_path)
+#
+# print("Raw shape:", df_raw.shape)
+# print("Clean shape:", df_clean.shape)
